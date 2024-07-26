@@ -1,0 +1,210 @@
+@font-face {
+    font-family: apercu-light;
+    src: url(../fonts/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: apercu-medium;
+    src: url(../fonts/Apercu\ Medium.otf);
+}
+
+@font-face {
+    font-family: apercu-bold;
+    src: url(../fonts/Apercu\ Bold.otf);
+}
+
+@font-face {
+    font-family: butler-regular;
+    src: url(../fonts/Butler_Regular.otf);
+}
+
+@font-face {
+    font-family: butler-bold;
+    src: url(../fonts/Butler_Bold.otf);
+}
+
+@font-face {
+    font-family: futurak-regular;
+    src: url(../fonts/Futurak.ttf);
+}
+
+@font-face {
+    font-family: futura_black_bt;
+    src: url(../fonts/futura_black_bt.ttf);
+}
+
+:root {
+    --red: #ed1c24;
+    --green: #28a745;
+    --white: #ffffff;
+    --black: #000000;
+    --apercu-light: apercu-light;
+    --apercu-medium: apercu-medium;
+    --apercu-bold: apercu-bold;
+    --butler-regular: butler-regular;
+    --butler-bold: butler-bold;
+    --futurak-regular: futurak-regular;
+    --d-grey: #ffffff0f;
+    --l-grey: #ffffffb3;
+    --futura_black_bt: futura-black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--apercu-light);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* utility classes started */
+/* flex classes started */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.gap-1 {
+    gap: 5px;
+}
+
+.gap-2 {
+    gap: 10px;
+}
+
+.gap-3 {
+    gap: 15px;
+}
+
+.gap-4 {
+    gap: 20px;
+}
+
+.gap-5 {
+    gap: 15px;
+}
+
+/* flex classes ended */
+
+/* margin classes started */
+
+.m-1 {
+    margin: 5px;
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+.m-3 {
+    margin: 15px;
+}
+
+.m-4 {
+    margin: 20px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mt-6{
+    margin-top: 30px;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+/* margin classes started */
+
+/* padding classes started */
+
+.p-1 {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+.p-4 {
+    padding: 20px;
+}
+
+/* padding classes started */
+
+/* text classes started */
+
+.text-center {
+    text-align: center;
+}
+
+.text-none {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+
+/* text classes ended */
+
+.bd-bottom{
+    border-bottom: 1px solid #ffffff14;
+}
+
+/* utility classes ended */
