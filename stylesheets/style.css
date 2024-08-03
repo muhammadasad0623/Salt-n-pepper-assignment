@@ -16,7 +16,7 @@
 
 /* navbar section started */
 .navbar {
-    margin-top: 10px;
+    margin-top: 10.5px;
 }
 
 .logo {
@@ -68,7 +68,7 @@
 
 .heading-text {
     font-size: 4rem;
-    margin-bottom: 8px;
+    margin-bottom: 9px;
     line-height: 50px;
 }
 
@@ -89,7 +89,7 @@
 
 .restaurants {
     gap: 35px;
-    margin: 50px;
+    margin: 55px;
 
 }
 
@@ -106,7 +106,7 @@
 .table-btn {
     background-color: transparent;
     border: 1px solid #ffffff;
-    padding: 12px 16.5px;
+    padding: 13px 16.5px;
     font-size: 1.4rem;
     width: 174px;
     height: 50px;
